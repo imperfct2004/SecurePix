@@ -1,0 +1,231 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.14.0
+3 silly config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\SH\Documents\Codex\2026-10-12\files-pasted-by-the-user-build\.npmrc
+5 silly config:load:file:C:\Users\SH\.npmrc
+6 silly config:load:file:C:\Users\SH\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\SH\Documents\Codex\2026-10-12\files-pasted-by-the-user-build\work\npm-cache\_logs\2026-10-12T15_55_19_057Z-
+10 verbose logfile C:\Users\SH\Documents\Codex\2026-10-12\files-pasted-by-the-user-build\work\npm-cache\_logs\2026-10-12T15_55_19_057Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest react-router-dom@^7.18.4
+15 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+16 http fetch GET 200 https://registry.npmjs.org/react-router-dom 57ms (cache hit)
+17 silly fetch manifest react@^18.3.1
+18 http fetch GET 200 https://registry.npmjs.org/react 1005ms (cache revalidated)
+19 silly fetch manifest react-dom@^18.3.1
+20 http fetch GET 200 https://registry.npmjs.org/react-dom 241ms (cache revalidated)
+21 silly fetch manifest vitest@^4.1.11
+22 http fetch GET 200 https://registry.npmjs.org/vitest 35ms (cache hit)
+23 silly fetch manifest @edge-runtime/vm@*
+24 http fetch GET 200 https://registry.npmjs.org/@edge-runtime%2fvm 204ms (cache revalidated)
+25 silly fetch manifest @opentelemetry/api@^1.9.0
+26 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 257ms (cache miss)
+27 silly fetch manifest @types/node@^20.0.0 || ^22.0.0 || >=24.0.0
+28 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 225ms (cache revalidated)
+29 silly fetch manifest @vitest/browser-playwright@4.1.11
+30 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-playwright 147ms (cache miss)
+31 silly fetch manifest playwright@*
+32 http fetch GET 200 https://registry.npmjs.org/playwright 246ms (cache revalidated)
+33 silly fetch manifest @vitest/browser-preview@4.1.11
+34 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-preview 139ms (cache miss)
+35 silly fetch manifest @vitest/browser-webdriverio@4.1.11
+36 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-webdriverio 107ms (cache miss)
+37 silly fetch manifest webdriverio@*
+38 http fetch GET 200 https://registry.npmjs.org/webdriverio 143ms (cache revalidated)
+39 silly fetch manifest puppeteer-core@>=24 <26
+40 http fetch GET 200 https://registry.npmjs.org/puppeteer-core 253ms (cache revalidated)
+41 silly fetch manifest @vitest/coverage-istanbul@4.1.11
+42 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-istanbul 293ms (cache miss)
+43 silly fetch manifest @vitest/coverage-v8@4.1.11
+44 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-v8 188ms (cache miss)
+45 silly fetch manifest @vitest/browser@4.1.11
+46 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser 242ms (cache revalidated)
+47 silly fetch manifest @vitest/ui@4.1.11
+48 http fetch GET 200 https://registry.npmjs.org/@vitest%2fui 184ms (cache revalidated)
+49 silly fetch manifest happy-dom@*
+50 http fetch GET 200 https://registry.npmjs.org/happy-dom 163ms (cache revalidated)
+51 silly fetch manifest jsdom@^30.1.2
+52 http fetch GET 200 https://registry.npmjs.org/jsdom 46ms (cache hit)
+53 silly fetch manifest canvas@^3.2.3
+54 http fetch GET 200 https://registry.npmjs.org/canvas 122ms (cache revalidated)
+55 silly placeDep ROOT jsdom@30.1.2 REPLACE for: securepix@1.0.0 want: ^30.1.2
+56 silly placeDep ROOT react-router-dom@7.18.4 REPLACE for: securepix@1.0.0 want: ^7.18.4
+57 silly placeDep ROOT vitest@4.1.11 REPLACE for: securepix@1.0.0 want: ^4.1.11
+58 silly fetch manifest parse5@^8.0.1
+59 silly fetch manifest undici@^8.11.2
+60 silly fetch manifest css-tree@^3.2.1
+61 silly fetch manifest data-urls@^8.0.0
+62 silly fetch manifest lru-cache@^11.5.3
+63 silly fetch manifest whatwg-url@^17.2.0
+64 silly fetch manifest tough-cookie@^6.0.2
+65 silly fetch manifest @exodus/bytes@^1.16.0
+66 silly fetch manifest whatwg-mimetype@^5.0.0
+67 silly fetch manifest w3c-xmlserializer@^6.0.0
+68 silly fetch manifest webidl-conversions@^8.0.1
+69 http fetch GET 200 https://registry.npmjs.org/data-urls 548ms (cache revalidated)
+70 silly fetch manifest xml-name-validator@^5.0.0
+71 http fetch GET 200 https://registry.npmjs.org/css-tree 826ms (cache miss)
+72 silly fetch manifest @bramus/specificity@^2.4.2
+73 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 952ms (cache revalidated)
+74 silly fetch manifest @asamuzakjp/css-color@^7.1.3
+75 http fetch GET 200 https://registry.npmjs.org/whatwg-mimetype 1139ms (cache revalidated)
+76 silly fetch manifest html-encoding-sniffer@^7.0.0
+77 http fetch GET 200 https://registry.npmjs.org/whatwg-url 1186ms (cache revalidated)
+78 silly fetch manifest @asamuzakjp/dom-selector@^9.2.4
+79 http fetch GET 200 https://registry.npmjs.org/lru-cache 1225ms (cache revalidated)
+80 silly fetch manifest @csstools/css-syntax-patches-for-csstree@^1.1.15
+81 http fetch GET 200 https://registry.npmjs.org/tough-cookie 1317ms (cache revalidated)
+82 silly fetch manifest react-router@7.18.4
+83 http fetch GET 200 https://registry.npmjs.org/w3c-xmlserializer 1386ms (cache revalidated)
+84 silly fetch manifest obug@^2.1.1
+85 http fetch GET 200 https://registry.npmjs.org/parse5 1466ms (cache revalidated)
+86 silly fetch manifest pathe@^2.0.3
+87 http fetch GET 200 https://registry.npmjs.org/xml-name-validator 925ms (cache revalidated)
+88 silly fetch manifest std-env@^4.0.0-rc.1
+89 http fetch GET 200 https://registry.npmjs.org/@bramus%2fspecificity 882ms (cache miss)
+90 silly fetch manifest tinyexec@^1.0.2
+91 http fetch GET 200 https://registry.npmjs.org/@exodus%2fbytes 1832ms (cache miss)
+92 silly fetch manifest @vitest/spy@4.1.11
+93 http fetch GET 200 https://registry.npmjs.org/@asamuzakjp%2fcss-color 891ms (cache revalidated)
+94 silly fetch manifest tinyrainbow@^3.1.0
+95 http fetch GET 200 https://registry.npmjs.org/react-router 671ms (cache revalidated)
+96 silly fetch manifest magic-string@^0.30.21
+97 http fetch GET 200 https://registry.npmjs.org/obug 880ms (cache miss)
+98 silly fetch manifest @vitest/utils@4.1.11
+99 http fetch GET 200 https://registry.npmjs.org/pathe 873ms (cache revalidated)
+100 silly fetch manifest @vitest/expect@4.1.11
+101 http fetch GET 200 https://registry.npmjs.org/std-env 869ms (cache revalidated)
+102 silly fetch manifest @vitest/mocker@4.1.11
+103 http fetch GET 200 https://registry.npmjs.org/tinyexec 704ms (cache revalidated)
+104 silly fetch manifest @vitest/runner@4.1.11
+105 http fetch GET 200 https://registry.npmjs.org/html-encoding-sniffer 1293ms (cache revalidated)
+106 silly fetch manifest es-module-lexer@^2.0.0
+107 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-syntax-patches-for-csstree 1296ms (cache miss)
+108 silly fetch manifest @vitest/snapshot@4.1.11
+109 http fetch GET 200 https://registry.npmjs.org/@vitest%2fspy 979ms (cache revalidated)
+110 silly fetch manifest @vitest/pretty-format@4.1.11
+111 http fetch GET 200 https://registry.npmjs.org/tinyrainbow 1013ms (cache revalidated)
+112 http fetch GET 200 https://registry.npmjs.org/magic-string 749ms (cache revalidated)
+113 http fetch GET 200 https://registry.npmjs.org/@vitest%2fexpect 904ms (cache revalidated)
+114 http fetch GET 200 https://registry.npmjs.org/@vitest%2futils 1028ms (cache revalidated)
+115 http fetch GET 200 https://registry.npmjs.org/@vitest%2fmocker 1036ms (cache revalidated)
+116 http fetch GET 200 https://registry.npmjs.org/@vitest%2fsnapshot 913ms (cache revalidated)
+117 http fetch GET 200 https://registry.npmjs.org/es-module-lexer 1056ms (cache revalidated)
+118 http fetch GET 200 https://registry.npmjs.org/@vitest%2frunner 1129ms (cache revalidated)
+119 http fetch GET 200 https://registry.npmjs.org/@asamuzakjp%2fdom-selector 2424ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/@vitest%2fpretty-format 958ms (cache revalidated)
+121 http fetch GET 200 https://registry.npmjs.org/undici 3971ms (cache miss)
+122 silly fetch manifest @noble/hashes@^1.8.0 || ^2.0.0
+123 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 216ms (cache miss)
+124 silly placeDep ROOT @asamuzakjp/css-color@7.1.5 OK for: jsdom@30.1.2 want: ^7.1.3
+125 silly placeDep ROOT @asamuzakjp/dom-selector@9.2.4 OK for: jsdom@30.1.2 want: ^9.2.4
+126 silly placeDep ROOT @bramus/specificity@2.4.3 OK for: jsdom@30.1.2 want: ^2.4.2
+127 silly placeDep ROOT @csstools/css-syntax-patches-for-csstree@1.1.15 OK for: jsdom@30.1.2 want: ^1.1.15
+128 silly placeDep ROOT @exodus/bytes@1.16.0 OK for: jsdom@30.1.2 want: ^1.16.0
+129 silly placeDep ROOT css-tree@3.2.1 OK for: jsdom@30.1.2 want: ^3.2.1
+130 silly placeDep ROOT data-urls@8.0.0 OK for: jsdom@30.1.2 want: ^8.0.0
+131 silly placeDep ROOT html-encoding-sniffer@7.0.0 OK for: jsdom@30.1.2 want: ^7.0.0
+132 silly placeDep node_modules/jsdom lru-cache@11.5.3 OK for: jsdom@30.1.2 want: ^11.5.3
+133 silly placeDep ROOT parse5@8.0.1 OK for: jsdom@30.1.2 want: ^8.0.1
+134 silly placeDep ROOT tough-cookie@6.0.2 OK for: jsdom@30.1.2 want: ^6.0.2
+135 silly placeDep ROOT undici@8.11.2 OK for: jsdom@30.1.2 want: ^8.11.2
+136 silly placeDep ROOT w3c-xmlserializer@6.0.0 OK for: jsdom@30.1.2 want: ^6.0.0
+137 silly placeDep ROOT webidl-conversions@8.0.1 OK for: jsdom@30.1.2 want: ^8.0.1
+138 silly placeDep ROOT whatwg-mimetype@5.0.0 OK for: jsdom@30.1.2 want: ^5.0.0
+139 silly placeDep ROOT whatwg-url@17.2.0 OK for: jsdom@30.1.2 want: ^17.2.0
+140 silly placeDep ROOT xml-name-validator@5.0.0 OK for: jsdom@30.1.2 want: ^5.0.0
+141 silly fetch manifest @csstools/css-calc@^3.4.3
+142 silly fetch manifest @csstools/css-tokenizer@^4.0.2
+143 silly fetch manifest @csstools/css-color-parser@^4.2.6
+144 silly fetch manifest @csstools/css-parser-algorithms@^4.0.2
+145 silly fetch manifest bidi-js@^1.1.0
+146 silly fetch manifest mdn-data@2.27.1
+147 silly fetch manifest whatwg-url@^17.1.2
+148 silly fetch manifest entities@^8.0.0
+149 silly fetch manifest tldts@^7.0.5
+150 silly fetch manifest tr46@^7.0.0
+151 http fetch GET 200 https://registry.npmjs.org/bidi-js 229ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-parser-algorithms 263ms (cache revalidated)
+153 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-calc 303ms (cache revalidated)
+154 http fetch GET 200 https://registry.npmjs.org/entities 295ms (cache revalidated)
+155 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-tokenizer 340ms (cache revalidated)
+156 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-color-parser 348ms (cache revalidated)
+157 http fetch GET 200 https://registry.npmjs.org/tr46 332ms (cache revalidated)
+158 http fetch GET 200 https://registry.npmjs.org/tldts 363ms (cache revalidated)
+159 http fetch GET 200 https://registry.npmjs.org/mdn-data 538ms (cache miss)
+160 silly placeDep ROOT @csstools/css-calc@3.4.3 OK for: @asamuzakjp/css-color@7.1.5 want: ^3.4.3
+161 silly placeDep ROOT @csstools/css-tokenizer@4.0.2 OK for: @csstools/css-calc@3.4.3 want: ^4.0.2
+162 silly placeDep ROOT @csstools/css-parser-algorithms@4.0.2 OK for: @csstools/css-calc@3.4.3 want: ^4.0.2
+163 silly placeDep ROOT @csstools/css-color-parser@4.2.6 OK for: @asamuzakjp/css-color@7.1.5 want: ^4.2.6
+164 silly placeDep node_modules/@asamuzakjp/css-color lru-cache@11.5.3 OK for: @asamuzakjp/css-color@7.1.5 want: ^11.5.3
+165 silly fetch manifest @csstools/color-helpers@^6.1.2
+166 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcolor-helpers 151ms (cache revalidated)
+167 silly placeDep ROOT bidi-js@1.1.0 OK for: @asamuzakjp/dom-selector@9.2.4 want: ^1.1.0
+168 silly placeDep node_modules/@asamuzakjp/dom-selector lru-cache@11.5.3 OK for: @asamuzakjp/dom-selector@9.2.4 want: ^11.5.3
+169 silly fetch manifest require-from-string@^2.0.2
+170 http fetch GET 200 https://registry.npmjs.org/require-from-string 139ms (cache miss)
+171 silly placeDep ROOT @csstools/color-helpers@6.1.2 OK for: @csstools/css-color-parser@4.2.6 want: ^6.1.2
+172 silly placeDep ROOT require-from-string@2.0.2 OK for: bidi-js@1.1.0 want: ^2.0.2
+173 silly placeDep ROOT mdn-data@2.27.1 OK for: css-tree@3.2.1 want: 2.27.1
+174 silly placeDep ROOT entities@8.1.0 OK for: parse5@8.0.1 want: ^8.0.0
+175 silly fetch manifest react@>=18
+176 silly fetch manifest react-dom@>=18
+177 silly placeDep ROOT react-router@7.18.4 OK for: react-router-dom@7.18.4 want: 7.18.4
+178 silly fetch manifest cookie@^1.0.1
+179 silly fetch manifest set-cookie-parser@^2.6.0
+180 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser 156ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/cookie 193ms (cache miss)
+182 silly placeDep ROOT cookie@1.1.1 OK for: react-router@7.18.4 want: ^1.0.1
+183 silly placeDep ROOT set-cookie-parser@2.7.2 OK for: react-router@7.18.4 want: ^2.6.0
+184 silly placeDep ROOT tldts@7.4.18 OK for: tough-cookie@6.0.2 want: ^7.0.5
+185 silly fetch manifest tldts-core@^7.4.18
+186 http fetch GET 200 https://registry.npmjs.org/tldts-core 189ms (cache revalidated)
+187 silly placeDep ROOT tldts-core@7.4.18 OK for: tldts@7.4.18 want: ^7.4.18
+188 silly fetch manifest msw@^2.4.9
+189 http fetch GET 200 https://registry.npmjs.org/msw 210ms (cache revalidated)
+190 silly fetch manifest typescript@>= 4.8.x
+191 http fetch GET 200 https://registry.npmjs.org/typescript 267ms (cache revalidated)
+192 silly fetch manifest vite@^6.0.0 || ^7.0.0 || ^8.0.0
+193 http fetch GET 200 https://registry.npmjs.org/vite 656ms (cache hit)
+194 silly fetch manifest @vitejs/devtools@^0.7.1
+195 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools 273ms (cache miss)
+196 silly fetch manifest @vitejs/devtools-oxc@^0.7.6
+197 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-oxc 188ms (cache miss)
+198 silly fetch manifest @vitejs/devtools-rolldown@^0.7.6
+199 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-rolldown 227ms (cache miss)
+200 silly fetch manifest @vitejs/devtools-vite@^0.7.6
+201 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-vite 192ms (cache miss)
+202 silly fetch manifest @vitejs/devtools-vitest@^0.7.6
+203 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-vitest 163ms (cache miss)
+204 silly fetch manifest vitest@*
+205 silly fetch manifest @vitest/browser-playwright@5.0.4
+206 silly fetch manifest vitest@4.1.11
+207 silly fetch manifest jsdom@*
+208 verbose stack TypeError: Cannot read properties of null (reading 'edgesOut')
+208 verbose stack     at #loadPeerSet (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1312:38)
+208 verbose stack     at async #loadPeerSet (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1320:11)
+208 verbose stack     at async #loadPeerSet (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1320:11)
+208 verbose stack     at async #loadPeerSet (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1320:11)
+208 verbose stack     at async #loadPeerSet (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1331:23)
+208 verbose stack     at async #buildDepStep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:923:11)
+208 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:203:7)
+208 verbose stack     at async Promise.all (index 1)
+208 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+208 verbose stack     at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:150:5)
+209 verbose cwd C:\Users\SH\Documents\Codex\2026-10-12\files-pasted-by-the-user-build
+210 verbose Windows_NT 10.0.26300
+211 verbose node v20.14.0
+212 verbose npm  v10.7.0
+213 error Cannot read properties of null (reading 'edgesOut')
+214 verbose exit 1
+215 verbose code 1
+216 silly unfinished npm timer reify 1791820520841
+217 silly unfinished npm timer reify:loadTrees 1791820520854
+218 silly unfinished npm timer idealTree:buildDeps 1791820521101
+219 silly unfinished npm timer idealTree:node_modules/vitest 1791820533904
+220 error A complete log of this run can be found in: C:\Users\SH\Documents\Codex\2026-10-12\files-pasted-by-the-user-build\work\npm-cache\_logs\2026-10-12T15_55_19_057Z-debug-0.log
